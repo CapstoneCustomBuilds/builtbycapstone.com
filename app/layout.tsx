@@ -5,6 +5,7 @@ import GSAPProvider from "@/components/providers/GSAPProvider";
 import LoadingScreen from "@/components/LoadingScreen";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -59,6 +60,7 @@ export default function RootLayout({
             <Footer />
           </GSAPProvider>
         </SmoothScrollProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
