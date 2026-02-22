@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Logo */}
           <a href="#" className="font-heading text-xl font-light tracking-[0.3em] text-white">
             CAPSTONE
-            <span className="inline-block -translate-y-[0.65em] md:-translate-y-[0.4em] text-[0.35em] md:text-[0.45em] leading-none text-accent-gold">&#9670;</span>
+            <span className="inline-block -translate-y-[0.6em] md:-translate-y-[0.4em] text-[0.35em] md:text-[0.45em] leading-none text-accent-gold">&#9670;</span>
           </a>
 
           {/* Links */}
