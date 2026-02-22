@@ -53,7 +53,7 @@ export default function Navbar() {
             }`}
           >
             CAPSTONE
-            <span className="inline-block -translate-y-[0.4em] text-[0.35em] md:text-[0.45em] leading-none text-accent-gold">&#9670;</span>
+            <span className="inline-block -translate-y-[0.65em] md:-translate-y-[0.4em] text-[0.35em] md:text-[0.45em] leading-none text-accent-gold">&#9670;</span>
           </a>
 
           {/* Desktop links */}

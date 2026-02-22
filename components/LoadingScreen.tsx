@@ -26,7 +26,7 @@ export default function LoadingScreen() {
             className="font-heading text-3xl font-light tracking-[0.3em] text-text-primary md:text-4xl"
           >
             CAPSTONE
-            <span className="inline-block -translate-y-[0.4em] text-[0.35em] md:text-[0.45em] leading-none text-accent-gold">&#9670;</span>
+            <span className="inline-block -translate-y-[0.65em] md:-translate-y-[0.4em] text-[0.35em] md:text-[0.45em] leading-none text-accent-gold">&#9670;</span>
           </motion.span>
         </motion.div>
       )}
