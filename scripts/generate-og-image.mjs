@@ -50,7 +50,7 @@ async function main() {
 
   console.log("Generating OG image for Capstone Custom Builds...\n");
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-image-preview:generateContent?key=${API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent?key=${API_KEY}`;
 
   const res = await fetch(url, {
     method: "POST",
