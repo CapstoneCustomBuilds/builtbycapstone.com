@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "(813) 555-0199",
+    value: "(813) 482-4184",
   },
   {
     icon: Mail,
@@ -181,7 +181,7 @@ export default function ContactSection() {
                     value={phone}
                     onChange={handlePhoneChange}
                     className="w-full border-b border-border-light bg-transparent pb-2 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-light/50 focus:border-accent-gold"
-                    placeholder="(813) 555-0199"
+                    placeholder="(813) 555-0123"
                   />
                 </div>
               </div>
